@@ -55,7 +55,7 @@ def get_last_239_video_urls(channel_id):
         return []
 
 def main():
-    channel_id = "UCSQ6ebJE6MTrEAN_P-L-fuA"
+    channel_id = "INSERT ID HERE"
 
     print("Fetching the last 239 video URLs from the channel...")
     video_urls = get_last_239_video_urls(channel_id)
